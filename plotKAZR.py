@@ -204,7 +204,7 @@ for k in d.keys():
         "temp":tempX,"pres":presX,"presfX":presfX,"zKu":zKuX,\
         "kext":kexttotX,"kscat":kscatotX,"gtot":gtotX,\
         "dn2d":dn2dX,"rho":rhoX, "z":xr.DataArray(h[100:500:3]),\
-        "presS":presSX,"tempS":tempSX,"qvS":qvSX,"presS":presSX,"hgtS":hgtSX}
+        "presS":presSX,"tempS":tempSX,"qvS":qvSX,"presS":presSX,"hgtS":hgtSX,"iwc":iwc_lidarX}
     dX=xr.Dataset(dd)
 
     comp = dict(zlib=True, complevel=5)
